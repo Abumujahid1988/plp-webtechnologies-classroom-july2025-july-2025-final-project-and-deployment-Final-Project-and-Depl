@@ -1,90 +1,108 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+README for Abdullahi Abdulganiyu - Portfolio Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+This is a personal portfolio website designed, coded, and deployed by **Abdullahi Abdulganiyu**,
+a Junior Full-Stack Developer.
+The project demonstrates skills in **HTML5, CSS3, JavaScript, and website deployment**.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 📂 Project Structure
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+```
+abdullahi_portfolio/
+│
+├── index.html        → Home Page
+├── about.html        → About Page
+├── services.html     → Services Page
+├── contact.html      → Contact Page
+│
+├── styles.css        → Styling (responsive layout, animations)
+├── script.js         → JavaScript interactivity (menus, forms, toggles)
+│
+├── README.md         → Project documentation
+│
+└── /images/          → Image assets
+     └── profile.jpg  → Developer profile picture (replace with your own if needed) plus online images from unsplash.com
+```
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+## 🌐 Website Pages
 
-Once your project is complete, choose a method to **host your site online**.
+### 1. Home Page (`index.html`)
 
-You can use:
+* Hero section with introduction and background image.
+* Profile section with a short description.
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+### 2. About Page (`about.html`)
 
-Deploy your project and confirm that:
+* Bio and background.
+* Skills section (Frontend, Backend, Tools, Soft Skills).
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+### 3. Services Page (`services.html`)
 
-**Goal:** Publish your work online and make it accessible to the world.
+* Details about development services: Frontend, Backend, Responsive Design, Deployment.
+* Illustrated with online images.
 
----
+### 4. Contact Page (`contact.html`)
 
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+* Contact form with JavaScript validation.
+* Social links (WhatsApp, Facebook, LinkedIn, Gmail).
 
 ---
 
-## Outcome
+## 🛠️ Technologies Used
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+* **HTML5** → Semantic structure
+* **CSS3** → Styling, responsive layout, and animations
+* **JavaScript (ES6)** → Interactivity (menu toggle, form validation, dynamic elements)
+
+---
+
+## 📷 Images
+
+* All images are loaded via **Unsplash URLs** (royalty-free) plus the developer profile picture.
+* You can replace them in each HTML file by updating `<img>` or `background-image` links.
+* Custom images (like `profile.jpg`) should be placed inside the `/images/` folder.
+
+---
+
+## 🚀 Deployment
+
+### Option 1: GitHub Pages
+
+1. Push your project folder to a GitHub repository.
+2. Go to **Settings → Pages** in your repository.
+3. Under **Branch**, select `main` and `/root`.
+4. Save and get your live link.
+
+👉 **Live Demo (GitHub Pages):** (https://abumujahid1988.github.io/abdullahi-portfolio/)
+
+### Option 2: Netlify
+
+1. Go to [Netlify](https://www.netlify.com/).
+2. Drag & drop the project folder onto the dashboard.
+3. Netlify will generate a live link automatically.
+
+---
+
+## 📞 Contact
+
+* **WhatsApp:** [+234 803 522 0554](https://wa.me/2348035220554)
+* **Facebook:** [Profile](https://web.facebook.com/abumujahid.ibiyemi/)
+* **LinkedIn:** [Profile](https://www.linkedin.com/in/abdullahi-abdulganiyu-3742a421b)
+* **Gmail:** [abumujahid555@gmail.com](mailto:abumujahid555@gmail.com)
+
+---
+
+## 📌 How to Run Locally
+
+1. Download the project folder.
+2. Open `index.html` in your browser.
+3. Navigate using the menu links (Home, About, Services, Contact).
+
+---
+
+© 2025 **Abdullahi Abdulganiyu** | All Rights Reserved
+
+---
