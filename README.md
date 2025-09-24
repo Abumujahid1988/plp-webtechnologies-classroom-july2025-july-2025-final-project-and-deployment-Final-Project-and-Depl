@@ -9,7 +9,7 @@ The project demonstrates skills in **HTML5, CSS3, JavaScript, and website deploy
 ## 📂 Project Structure
 
 ```
-abdullahi_portfolio/
+abdullahi-portfolio/
 │
 ├── index.html        → Home Page
 ├── about.html        → About Page
@@ -75,15 +75,14 @@ abdullahi_portfolio/
 2. Go to **Settings → Pages** in your repository.
 3. Under **Branch**, select `main` and `/root`.
 4. Save and get your live link.
-
-👉 **Live Demo (GitHub Pages):** (https://abumujahid1988.github.io/abdullahi-portfolio/)
-
+   
 ### Option 2: Netlify
 
 1. Go to [Netlify](https://www.netlify.com/).
 2. Drag & drop the project folder onto the dashboard.
 3. Netlify will generate a live link automatically.
 
+👉 **Live Demo (GitHub Pages):** (https://abumujahid-portfolio.netlify.app/)
 ---
 
 ## 📞 Contact
